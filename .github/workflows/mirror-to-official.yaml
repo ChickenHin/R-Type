@@ -2,8 +2,8 @@ name: Copy Mirror to Official Repo
 # This workflow is run on every push on main.
 # It aims to mirror the repository to the official one.
 on:
-  push:
-    branches: [main]
+  # push:
+  #   branches: [main]
 
 env:
   MIRROR_URL: 'git@github.com:EpitechPGE3-2025/G-CPP-500-NAN-5-2-rtype-1.git'
